@@ -29,7 +29,9 @@
 
     <dependency>
       <groupId>org.testng</groupId>
-      <artifactId>7.1.0</artifactId>
+      <artifactId>testng</artifactId>
+      <version>7.1.0</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.slf4j</groupId>
