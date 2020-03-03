@@ -9,8 +9,8 @@ public class ParametrTest {
     @DataProvider(name = "Дата провайдер")
     public Object[][] dataProveder(){
         return new Object[][] {
-                {"Игорь", 35},
-                {"Петя", 44},
+                {"Ivan", 35},
+                {"Vova", 44},
         };
     }
     @Test(dataProvider = "Дата провайдер")
